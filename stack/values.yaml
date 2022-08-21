@@ -9,4 +9,4 @@ global:
 # Stack related values
 stack:
   crossplane:
-    version: 1.9.0
+    version: v1.9.0
