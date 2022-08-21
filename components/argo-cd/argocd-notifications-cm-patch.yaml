@@ -9,7 +9,7 @@ data:
     icon: https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.png
   subscriptions: |
     - recipients:
-        - slack:jenkins-ci
+        - slack:argo-notifications
       triggers:
         - on-sync-failed
         - on-sync-running
