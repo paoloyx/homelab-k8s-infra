@@ -8,9 +8,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/crossplane/crossplane.git
+    chart: crossplane-stable/crossplane
+    repoURL: https://charts.crossplane.io/stable
     targetRevision: {{ .Values.stack.crossplane.version | quote }}
-    path: cluster/charts/crossplane
+    helm:
+      releaseName: crossplane
   destination:
     server: https://kubernetes.default.svc
     namespace: crossplane-system
