@@ -10,7 +10,7 @@ spec:
   source:
     chart: crossplane-stable/crossplane
     repoURL: https://charts.crossplane.io/stable
-    targetRevision: {{ .Values.stack.crossplane.version | quote }}
+    targetRevision: {{ .Values.stack.crossplane.chartVersion | quote }}
     helm:
       releaseName: crossplane
   destination:
