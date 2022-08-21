@@ -1,0 +1,7 @@
+# Default values for stack.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# target branch taken as global revision
+global:
+  targetRevision: main
