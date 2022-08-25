@@ -10,5 +10,3 @@ global:
 stack:
   crossplane:
     chartVersion: 1.9.0
-  vault:
-    chartVersion: 0.21.0
